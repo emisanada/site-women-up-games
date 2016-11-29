@@ -57,19 +57,19 @@ VERSION : 1.1
     $(window).scroll(function() {
       var top_v=$(window).scrollTop();
       var themecolor="#f8198d";
-      if(top_v>=30) {
-        $(".nim-menu").css({height:"80px",padding:"15px",background:"#fff",boxShadow:"2px 2px 3px 3px rgba(0,0,0,0.3"}));
+      if(top_v >= 30) {
+        $(".nim-menu").css({ height:"80px",padding:"15px",background:"#fff",boxShadow:"2px 2px 3px 3px rgba(0,0,0,0.3)" });
         $(".nim-menu.navbar-default .navbar-nav > li > a,a.navbar-brand").css("color","#000");
         $(".nim-menu.navbar-default .navbar-nav > li > a").hover(function(){$(this).css("color",themecolor)},function(){$(this).css("color","#000")})
       }
       else {
-        $(".nim-menu").css({height:"0px",padding:"15px",background:"#000",boxShadow:"2px 2px 3px 3px rgba(0,0,0,0.3"}));
+        $(".nim-menu").css({ height:"0px",padding:"15px",background:"#000",boxShadow:"2px 2px 3px 3px rgba(0,0,0,0.3)" });
         $("a.navbar-brand").css("color","#fff");
         $(".nim-menu.navbar-default .navbar-nav > li > a").css("color","#fafafa");
         $(".nim-menu.navbar-default .navbar-nav > li > a:hover").css("color",themecolor);
         $(".nim-menu.navbar-default .navbar-nav > li > a").hover(function(){$(this).css("color",themecolor)},function(){$(this).css("color","#fafafa")})
       }
-    }
+     }
    )},
 
     navigate:function() {
