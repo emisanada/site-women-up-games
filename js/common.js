@@ -56,7 +56,7 @@ VERSION : 1.1
    menuAnimation:function() {
     $(window).scroll(function() {
       var top_v=$(window).scrollTop();
-      var themecolor="#f8198d";
+      var themecolor="#8d21af";
       if(top_v >= 30) {
         $(".nim-menu").css({ height:"80px",padding:"15px",background:"#fff",boxShadow:"2px 2px 3px 3px rgba(0,0,0,0.3)" });
         $(".nim-menu.navbar-default .navbar-nav > li > a,a.navbar-brand").css("color","#000");

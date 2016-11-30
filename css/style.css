@@ -72,7 +72,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.2em;
+	font-size: 25px;
 	font-weight: 900;
 }
 
@@ -175,7 +175,7 @@ p.intro {
 	font-weight: 700;
 	letter-spacing: 0.02em;
 	text-transform: uppercase;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 	margin-bottom: 20px;
 }
 
@@ -185,16 +185,15 @@ p.intro {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
-/*	TYPOGRAPHY
-------------------------------*/
+
+/*	TYPOGRAPHY------------------------------*/
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 	margin: 0;
 }
 
-/*	BUTTON
-------------------------------*/
+/*	BUTTON------------------------------*/
 .btn {
   font-size: 14px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -355,12 +354,11 @@ div.preloader {
 	color:#fff;
 }
 
-
-
 .nim-menu.navbar-default .navbar-nav > li > a {
 	color: #fafafa;
 	letter-spacing: 1px;
-  font-size:.73em;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .navbar-default .navbar-nav > .active > a,
