@@ -1,13 +1,3 @@
-/*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++
-AUTHOR : Vijayan PP
-PROJECT : Nim-MUTLIT PURPOSE LANDING PAGE TEMPLATE
-VERSION : 1.1
-++++++++++++++++++++++++++++++++++++++++++++++++++++++
-*/
-
-
-
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	INDEX
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -29,12 +19,7 @@ VERSION : 1.1
        16> CONTACT US
        17> SITE-FOOTER
        18> ANIMATION
-
-
 -------------------------------------------------------*/
-
-
-
 
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -42,7 +27,6 @@ VERSION : 1.1
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 @import url('http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100');
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
-
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	RESET
@@ -73,7 +57,7 @@ body {
 	background-color: #000;
 	overflow-x: hidden;
 	line-height: 1.5;
-        font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 }
@@ -377,7 +361,6 @@ div.preloader {
 	color: #fafafa;
 	letter-spacing: 1px;
   font-size:.73em;
- /*//text-shadow:1px 0px rgba(0,0,0,0.5);*/
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -409,19 +392,15 @@ div.preloader {
 ------------------------------*/
 
 .main-heading {
-	/*background: url(https://player.vimeo.com/video/85066038?api=1&player_id=85066038_1439956045620&autoplay=1&badge=0&loop=1&portrait=0&title=0&origin=);*/
-	/*background-size:cover;*/
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
+  background-size:cover;
 	color: #cfcfcf;
   margin-top:80px;
-
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: transparent;
 	background-position: 50% 50%;
 	background-image: url("http://i.vimeocdn.com/video/462215671_1280.jpg");
-	/*padding-top: 256px;
-	padding-bottom: 257px;*/
 }
 
 .overlay {
