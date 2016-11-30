@@ -574,7 +574,7 @@ p.lead {
   font-size: 0.93em;
   font-weight: 700;
   text-transform: capitalize;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   margin-bottom: 5px;
 }
 
@@ -594,7 +594,7 @@ p.lead {
 }
 
 .our-team h4  {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
  }
 
 .our-team h4,.our-team h5 {
@@ -616,6 +616,7 @@ p.lead {
 	width: 300px;
 	top: 50%;
 	left: 50%;
+  margin-left: 15px;
 }
 
 /*----------------INSPIRATION---------------------*/
@@ -633,7 +634,7 @@ p.lead {
 .subheading h4 {
 	color: #ffffff;
 	font-style: italic;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .intermediate-container .heading h2 {
@@ -734,7 +735,7 @@ p.lead {
 }
 
 .nim-service .nim-service-detail h4 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .nim-service .nim-service-detail p {
