@@ -332,10 +332,7 @@ div.preloader {
   right: 0;
 }
 
-/*	RAMSH-STYLE STARTS HERE
-------------------------------*/
-
-/* Navigation */
+/* Navigation------------------------------*/
 .nim-menu{
 	padding: 10px;
 	transition: all 0.8s;
@@ -347,17 +344,27 @@ div.preloader {
   -ms-transition:all 0.4s ease-in;
 }
 
-.nim-menu a.navbar-brand {
-	text-transform: uppercase;
-	font-size: 1.5em;
-	font-weight: 900;
-	color:#fff;
+.img-nav-bar {
+  height: 90px;
+  width: auto;
+}
+
+.navbar {
+  min-height: 110px !important;
+}
+
+.grad-wug {
+  background: #D3959B; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #D3959B, #8CA6DB);
+  background: -o-linear-gradient(bottom right, #D3959B, #8CA6DB);
+  background: -moz-linear-gradient(bottom right, #D3959B, #8CA6DB);
+  background: linear-gradient(to bottom right, #D3959B, #8CA6DB);
 }
 
 .nim-menu.navbar-default .navbar-nav > li > a {
 	color: #fafafa;
 	letter-spacing: 1px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
 }
 
@@ -386,8 +393,7 @@ div.preloader {
 }
 
 
-/*	MAIN HEADING
-------------------------------*/
+/*	MAIN HEADING------------------------------*/
 
 .main-heading {
 	background-attachment: fixed;
@@ -398,7 +404,7 @@ div.preloader {
 	background-size: cover;
 	background-color: transparent;
 	background-position: 50% 50%;
-	background-image: url("http://i.vimeocdn.com/video/462215671_1280.jpg");
+	background-image: url("http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,f_auto,fl_progressive,h_1500,q_90,w_2000/v1/304059/picjumbo.com_HNCK4504_tjktg6.jpg");
 }
 
 .overlay {
@@ -430,7 +436,7 @@ p.lead {
  position:relative;
  top:5px;
  color:#e3e3e3;
- font-size:0.93em;
+ font-size:17px;
 }
 
 .main-heading-content {
@@ -587,7 +593,6 @@ p.lead {
   font-size:0.82em;
 }
 
-
 /*----------------OUR TEAM-----------------------*/
 .our-team>.container {
   padding:70px 0px;
@@ -647,8 +652,7 @@ p.lead {
 	font-weight: 700;
 }
 
-/*	TESTIMONIAL
-------------------------------*/
+/*	TESTIMONIAL------------------------------*/
 .client-testimonial {
  background:url("../images/img-2.jpg");
  background-position: center center;
@@ -666,9 +670,9 @@ p.lead {
 }
 
 #testimonial .item{
-    display: block;
-    width: 100%;
-    height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 #testimonial .item p {
@@ -719,7 +723,11 @@ p.lead {
 	font-size:1.6em;
 	width: 70px;
   height:70px;
-  background:#000;
+  background: #D3959B; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #D3959B, #8CA6DB);
+  background: -o-linear-gradient(bottom right, #D3959B, #8CA6DB);
+  background: -moz-linear-gradient(bottom right, #D3959B, #8CA6DB);
+  background: linear-gradient(to bottom right, #D3959B, #8CA6DB);
   border-radius:50%;
   color:#fff;
   text-align: center;
@@ -747,7 +755,7 @@ p.lead {
 
 .nim-service:hover>i.fa {
   background:#fff;
-  color:#000;
+  color:#D3959B;
   box-shadow:2px 3px 5px 8px rgba(0,0,0,0.3);
   -webkit-box-shadow:2px 3px 5px 2px rgba(0,0,0,0.3);
   -moz-box-shadow:2px 3px 5px 2px rgba(0,0,0,0.3);
@@ -755,10 +763,6 @@ p.lead {
 }
 
 /*----------------CONTACT US-----------------------*/
-.sub-form {
-  background:#222;
-}
-
 .sub-form>.container {
   padding:80px 0px;
 }
@@ -780,8 +784,7 @@ p.lead {
 }
 
 .form-control {
-  background-color: #222;
-  color: #4c4c4c;
+  color: #D3959B;
   box-shadow: none;
   height: 60px;
   font-weight: 400;
@@ -812,6 +815,7 @@ p.lead {
 
 #mc-form .btn-default {
   height: 60px;
+  color: #D3959B;
 }
 
 #mc-notification {
