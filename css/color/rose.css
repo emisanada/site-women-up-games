@@ -44,18 +44,16 @@ color:#a2129e;
 }
 
 
-.black
-{
-    color:#000;
+.black {
+    color:#333;
 }
 
 .white
 {
     color:#fff;
 }
-.black-background
-{
-    background-color:#000;
+.black-background {
+    background-color:#333;
 }
 
 .white-background
@@ -74,7 +72,7 @@ color:#a2129e;
 
 .sectionTitle hr
 {
-  border-color:#a2129e; 
+  border-color:#a2129e;
 }
 
 .sectionTitle .line{
@@ -88,7 +86,7 @@ color:#a2129e;
 
 ol.type li a:hover{ color:#a2129e;}
 
-.ramsh-menu.navbar-default .navbar-nav > li > a:hover,a.fa.fa-angle-down:hover,.navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > .active > a:hover, 
+.ramsh-menu.navbar-default .navbar-nav > li > a:hover,a.fa.fa-angle-down:hover,.navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus
 {
     color:#a2129e;
@@ -96,13 +94,13 @@ ol.type li a:hover{ color:#a2129e;}
 
 .navbar-toggle
 {
- 
+
  color:#a2129e;
 }
 
-.owl-theme .owl-controls .owl-page.active span, 
+.owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span,#contactbtn:hover {
-	
+
 	background:#a2129e;
 }
 .owl-theme .owl-controls .owl-page.active span{

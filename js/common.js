@@ -65,20 +65,31 @@ VERSION : 1.1
         });
         // $(".nim-menu").removeClass('grad-wug');
         $(".nim-menu.navbar-default .navbar-nav > li > a,a.navbar-brand").css("color","#D3959B");
-        $(".nim-menu.navbar-default .navbar-nav > li > a").hover(function(){$(this).css("color",themecolor)},function(){$(this).css("color","#000")})
+        $(".nim-menu.navbar-default .navbar-nav > li > a").hover(function() {
+            $(this).css("color", themecolor);
+          }, function() {
+            $(this).css("color", "#D3959B");
+          }
+        );
       }
       else {
         $(".nim-menu").css({
           height: "0px",
           padding: "15px",
-          background: "linear-gradient(to bottom right, #D3959B, #8CA6DB)",
+          // background: "linear-gradient(to bottom right, #D3959B, #8CA6DB)",
+          background: "#333",
           boxShadow: "2px 2px 3px 3px rgba(0,0,0,0.3)"
         });
         // $(".nim-menu").addClass('grad-wug');
         $("a.navbar-brand").css("color","#fff");
         $(".nim-menu.navbar-default .navbar-nav > li > a").css("color","#fafafa");
-        $(".nim-menu.navbar-default .navbar-nav > li > a:hover").css("color",themecolor);
-        $(".nim-menu.navbar-default .navbar-nav > li > a").hover(function(){$(this).css("color",themecolor)},function(){$(this).css("color","#fafafa")})
+        $(".nim-menu.navbar-default .navbar-nav > li > a:hover").css("color", themecolor);
+        $(".nim-menu.navbar-default .navbar-nav > li > a").hover(function() {
+            $(this).css("color", themecolor);
+          }, function() {
+            $(this).css("color","#fafafa");
+          }
+        );
       }
      }
    )},
