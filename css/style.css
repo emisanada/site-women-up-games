@@ -1,14 +1,4 @@
-
-/*++++++++++++++++++++++++++++++++++++++++++++++++++++++
-	IMPORT FONTS
-++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-@import url('http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100');
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
-
-/*++++++++++++++++++++++++++++++++++++++++++++++++++++++
-	RESET
-++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-
+/* MAIN */
 * {
 	padding: 0;
 	margin: 0;
@@ -19,7 +9,10 @@ html {
   -webkit-font-smoothing:antialiased;
 }
 
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,hr,th,td {
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+pre, form, fieldset, p, blockquote,
+hr, th, td {
 	margin:0;
 	padding:0;
 }
@@ -27,7 +20,6 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,hr,t
 /* GENERAL */
 body {
 	color: #fff;
-	/*font: normal 16px "Didact Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	font-weight: 300;
 	background-color: #333;
 	overflow-x: hidden;
@@ -58,7 +50,7 @@ h5 {
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Didact Gothic', sans-serif;
 	font-size:0.93em;
 }
 
@@ -86,7 +78,7 @@ p.intro {
 	font-size:0.9em;
 	margin: 14px 0;
 	line-height: 24px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Didact Gothic', sans-serif;
 }
 
 .relative {
@@ -669,10 +661,11 @@ p.lead {
 }
 
 #testimonial .item p {
-	font-weight: 400;
+	font-weight: 100;
 	margin: 30px 0;
-	color: #d1d1d1;
-  font-size: 15px;
+	color: white;
+  font-size: 19px;
+  font-family: 'Merienda', sans-serif;
 }
 
 /*	STATS------------------------------*/
