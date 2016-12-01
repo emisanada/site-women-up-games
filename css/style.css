@@ -178,7 +178,7 @@ h5, .h5 {
   color: #ffffff;
 }
 
-.btn-custom{
+.btn-custom {
 	border-radius: 3px;
 	padding: 0.8em 1.8em;
 	color: #fff;
@@ -189,7 +189,7 @@ h5, .h5 {
 	text-transform: uppercase;
 }
 
-.btn-custom:hover,.btn-custom:focus{
+.btn-custom:hover,.btn-custom:focus {
   color: #fff;
 }
 
@@ -205,12 +205,12 @@ h5, .h5 {
 	border-color: #ffffff;
 }
 
-.btn-custom-outline:hover,.btn-custom-outline:focus{
+.btn-custom-outline:hover,.btn-custom-outline:focus {
 	color: #ffffff;
 	background-color: rgba(255,255,255,.5);
 }
 
-.btn-bar a{
+.btn-bar a {
 	margin-right: 10px;
 }
 
