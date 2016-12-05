@@ -1,4 +1,11 @@
-/* MAIN */
+// VARIABLES
+$wug_main_color: #a2129e;
+$white: #fff;
+$black: #333;
+$font-size-text: 16px;
+// $font-family-title: 'Press Start 2P', arial;
+
+// MAIN
 * {
   padding: 0;
   margin: 0;
@@ -19,12 +26,12 @@ hr, th, td {
 
 /* GENERAL */
 body {
-  color: #fff;
+  color: $white;
   font-weight: 300;
-  background-color: #333;
+  background-color: $black;
   overflow-x: hidden;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: $font-size-text;
   font-family: 'Didact Gothic', sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
@@ -143,7 +150,7 @@ p.intro {
   font-weight: 700;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: 'Press Start 2P', arial;
   margin-bottom: 20px;
 }
 
@@ -467,7 +474,7 @@ p.lead {
   overflow: hidden;
   clear: both;
   margin-bottom: 30px;
-  color: #a2129e;
+  color: #a2129e;//$wug_main_color;
 }
 
 .about-box i {
@@ -589,7 +596,7 @@ p.lead {
 }
 
 .list-inline a {
-  color:#a2129e;
+  color: #a2129e; //$wug_main_color;
 }
 
 .img-circle {
@@ -600,15 +607,15 @@ p.lead {
 }
 
 .img-management {
-  width: 300px;
+  width: 200px;
   height: auto;
   margin-left: 25px;
 }
 
 .img-volunteer {
-  width: 200px;
+  width: 150px;
   height: auto;
-  margin-left: 15px;
+  // margin-left: 15px;
 }
 
 /*----------------INSPIRATION---------------------*/
