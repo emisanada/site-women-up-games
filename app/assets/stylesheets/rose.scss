@@ -1,85 +1,95 @@
+@import "variables";
+
+.theme_background_color {
+  background-color: $wug-main-color;
+}
+
+.themecolor {
+  color: $wug-main-color;
+}
+
 .theme_background_color,#downloadbt:hover {
-  background-color:#a2129e; /*Defines the theme bakcground color*/
+  background-color: $wug-main-color;
 }
 
 .borderColor {
-  border-color:#000;/*Defines the color of the border*/
+  border-color: $black;
 }
 
 .nim-menu.navbar-default .navbar-nav > li > a:hover {
-  color:#a2129e;
+  color: $wug-main-color;
 }
 
 .social li a:hover {
-  color:#a2129e;
+  color: $wug-main-color;
 }
 
 .sub-footer {
-  border-top-color:#a2129e;
+  border-top-color: $wug-main-color;
 }
 
 .work-desc {
-  background:#a2129e;
+  background:$wug-main-color;
 }
 
 .work-desc h3 {
-  color:#fff;
+  color: $white;
 }
 
 .black {
-  color:#333;
+  color: $black;
 }
 
 .white {
-  color:#fff;
+  color: $white;
 }
 
 .black-background {
-  background-color:#333;
+  background-color: $black;
 }
 
 .white-background {
-  background-color:#fff;
+  background-color: $white;
 }
 
 .grey {
-  color:#676565;
+  color: #676565;
 }
 
 .grey_background_color {
-  background-color:#676565;
+  background-color: #676565;
 }
 
 .sectionTitle hr {
-  border-color:#a2129e;
+  border-color: $wug-main-color;
 }
 
 .sectionTitle .line {
-  border-color:#fff;
+  border-color: $white;
 }
 
 .sectionTitle .line hr {
-  border-color:#dbdbdb;
+  border-color: #dbdbdb;
 }
 
 ol.type li a:hover{
-  color:#a2129e;
+  color: $wug-main-color;
 }
 
 .ramsh-menu.navbar-default .navbar-nav > li > a:hover,a.fa.fa-angle-down:hover,.navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color:#a2129e;
+  color: $wug-main-color;
 }
 
 .navbar-toggle {
-  color:#a2129e;
+  color: $wug-main-color;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span,#contactbtn:hover {
-  background:#a2129e;
+  background: $wug-main-color;
 }
 
 .owl-theme .owl-controls .owl-page.active span{
-  background:#a2129e;
+  background: $wug-main-color;
 }

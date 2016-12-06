@@ -140,15 +140,15 @@
 /*+++++++++++++++++++++++++COMMON FUNCTIONS++++++++++++++++++++++++++++*/
 
 /*KENBERG SLIDER*/
-//
-//  var fullscreenslider=function() {
-//   $("section.main-heading").vegas({
-//   delay: 3000,
-//     slides: [
-//       { src: "public/images/bak3.jpg" },
-//       { src: "public/images/bak2.jpg" },
-//       { src: "public/images/bak3.jpg" },
-//       { src: "public/images/bak4.jpg" }
-//     ],animation: 'kenburns'
-//   });
-// }
+
+ var fullscreenslider = function() {
+  $("section.main-heading").vegas({
+  delay: 3000,
+    slides: [
+      { src: "public/images/bak3.jpg" },
+      { src: "public/images/bak2.jpg" },
+      { src: "public/images/bak3.jpg" },
+      { src: "public/images/bak4.jpg" }
+    ],animation: 'kenburns'
+  });
+}

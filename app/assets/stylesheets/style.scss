@@ -1,12 +1,4 @@
-// VARIABLES
-$wug-main-color: #a2129e;
-$wug-grad: #D3959B, #a2129e;
-$wug-grad-background: #D3959B, #8CA6DB;
-$white: #fff;
-$black: #333;
-$font-size-text: 16px;
-$font-family-title: 'Press Start 2P', arial;
-$font-family-text: 'Didact Gothic', sans-serif;
+@import "variables";
 
 // MAIN
 * {
@@ -95,14 +87,6 @@ p.intro {
   position:relative;
 }
 
-.theme_background_color {
-  background-color: $wug-main-color;
-}
-
-.themecolor {
-  color: $wug-main-color;
-}
-
 .wrapper {
   width:100%;
   height:100%;
@@ -180,26 +164,26 @@ h1, h2, h3, h4, h6,
 }
 
 h5, .h5 {
-  font-family: 'Carrois Gothic SC', arial;
+  font-family: $font-family-alternative;
 }
 
 /*	BUTTON------------------------------*/
 .btn {
   font-size: 15px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: $font-family-btn;
   text-transform: uppercase;
   border-radius: 0;
 }
 
 .btn:focus,.btn:active {
   outline: none;
-  color: #ffffff;
+  color: $white;
 }
 
 .btn-custom {
   border-radius: 3px;
   padding: 0.8em 1.8em;
-  color: #fff;
+  color: $white;
   font-weight: 700;
   -webkit-transition: all .5s ease-out;
   -moz-transition: all .5s ease-out;
@@ -208,23 +192,23 @@ h5, .h5 {
 }
 
 .btn-custom:hover,.btn-custom:focus {
-  color: #fff;
+  color: $white;
 }
 
 .btn-custom-outline {
   border-radius: 3px;
   padding: 0.8em 1.8em;
-  color: #fff;
+  color: $white;
   font-weight: 700;
   -webkit-transition: all .5s ease-out;
   transition: all .5s ease-out;
   text-transform: uppercase;
   background-color: transparent;
-  border-color: #ffffff;
+  border-color: $white;
 }
 
 .btn-custom-outline:hover,.btn-custom-outline:focus {
-  color: #ffffff;
+  color: $white;
   background-color: rgba(255,255,255,.5);
 }
 
@@ -475,7 +459,6 @@ p.lead {
   animation: blink .6s infinite;
 }
 
-
 /*----------------ABOUT US------------------------------*/
 .aboutus>.container {
   padding:60px 0px;
@@ -507,7 +490,6 @@ p.lead {
 }
 
 /*----------------OUR WORKS-----------------------------*/
-
 .recent-works>.container {
   padding:70px 0px;
 }
@@ -590,74 +572,6 @@ p.lead {
 .work-desc span {
   margin-top: 10px;
   font-size:0.82em;
-}
-
-/*----------------OUR TEAM-----------------------*/
-.our-team>.container {
-  padding:70px 0px;
-}
-
-.our-team h4,.our-team h5 {
-  padding-top:15px;
-}
-
-.our-team p {
-  font-size:15px;
-  padding-top:15px;
-}
-
-.list-inline a {
-  color: $wug-main-color;
-}
-
-.img-circle {
-  border-radius: 50%;
-  height: auto;
-  top: 50%;
-  left: 50%;
-}
-
-.img-management {
-  width: 200px;
-  height: auto;
-  margin-left: 25px;
-  display: block;
-  margin: auto;
-}
-
-.img-volunteer {
-  width: 150px;
-  height: auto;
-  display: block;
-  margin: auto;
-}
-
-/*----------------INSPIRATION---------------------*/
-.inspiration {
- background:url("../public/images/img-1.jpg");
- background-position: center center;
- background-attachment: fixed;
- background-size:cover;
-}
-
-.inspiration >.overlay.container {
-  padding:80px 0px;
-}
-
-.subheading h4 {
-  color: $white;
-  font-style: italic;
-  font-family: $font-family-title;
-}
-
-.intermediate-container .heading h2 {
-  font-size: 40px;
-  line-height: 47px;
-  text-transform: uppercase;
-  margin-top: 30px;
-  color: #ffffff;
-  margin-bottom: 20px;
-  font-weight: 700;
 }
 
 /*	TESTIMONIAL------------------------------*/

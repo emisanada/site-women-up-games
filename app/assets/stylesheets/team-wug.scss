@@ -1,0 +1,40 @@
+@import "variables";
+
+.team-wug>.container {
+  padding:70px 0px;
+}
+
+.team-wug h4,.team-wug h5 {
+  padding-top:15px;
+}
+
+.team-wug p {
+  font-size:15px;
+  padding-top:15px;
+}
+
+.list-inline a {
+  color: $wug-main-color;
+}
+
+.img-circle {
+  border-radius: 50%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+}
+
+.img-management {
+  width: 200px;
+  height: auto;
+  margin-left: 25px;
+  display: block;
+  margin: auto;
+}
+
+.img-volunteer {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: auto;
+}

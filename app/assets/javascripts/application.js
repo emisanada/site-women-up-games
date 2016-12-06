@@ -15,7 +15,8 @@
 //= require bootstrap/bootstrap
 //= require typed/typed
 //= require vegas/vegas
-//= require owl_carousel/owl.carousel
+//= require fappear/fappear
+//= require owl-carousel/owl.carousel
 //= require jquery/jquery-1.11.3.min
 //= require jquery/jquery.countTo
 //= require jquery/jquery.easing.1.3
