@@ -1,17 +1,3 @@
-
-/*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++
-AUTHOR : Vijayan PP
-PROJECT :Nim
-VERSION : 1.1
-++++++++++++++++++++++++++++++++++++++++++++++++++++++
-*/
-
-.themecolor
-{
-    color:#a2129e;/*Defines the theme color*/
-}
-
 .theme_background_color,#downloadbt:hover
 {
     background-color:#a2129e; /*Defines the theme bakcground color*/
@@ -101,8 +87,8 @@ ol.type li a:hover{ color:#a2129e;}
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span,#contactbtn:hover {
 
-	background:#a2129e;
+  background:#a2129e;
 }
 .owl-theme .owl-controls .owl-page.active span{
-	background:#a2129e;
+  background:#a2129e;
 }

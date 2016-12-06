@@ -1,9 +1,12 @@
 // VARIABLES
-$wug_main_color: #a2129e;
+$wug-main-color: #a2129e;
+$wug-grad: #D3959B, #a2129e;
+$wug-grad-background: #D3959B, #8CA6DB;
 $white: #fff;
 $black: #333;
 $font-size-text: 16px;
-// $font-family-title: 'Press Start 2P', arial;
+$font-family-title: 'Press Start 2P', arial;
+$font-family-text: 'Didact Gothic', sans-serif;
 
 // MAIN
 * {
@@ -13,7 +16,7 @@ $font-size-text: 16px;
 }
 
 html {
-  -webkit-font-smoothing:antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
 body, div, dl, dt, dd, ul, ol, li,
@@ -32,7 +35,7 @@ body {
   overflow-x: hidden;
   line-height: 1.5;
   font-size: $font-size-text;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: $font-family-text;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }
@@ -57,7 +60,7 @@ h5 {
 }
 
 p {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: $font-family-text;
   font-size:0.93em;
 }
 
@@ -68,7 +71,7 @@ a {
   -webkit-transition:all 0.3s linear;
   -moz-transition:all 0.3s linear;
   -ms-transition:all 0.3s linear;
-   -o-transition:all 0.3s linear;
+  //  -o-transition:all 0.3s linear;
 }
 
 ul {
@@ -85,11 +88,19 @@ p.intro {
   font-size:0.9em;
   margin: 14px 0;
   line-height: 24px;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: $font-family-text;
 }
 
 .relative {
   position:relative;
+}
+
+.theme_background_color {
+  background-color: $wug-main-color;
+}
+
+.themecolor {
+  color: $wug-main-color;
 }
 
 .wrapper {
@@ -150,7 +161,7 @@ p.intro {
   font-weight: 700;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  font-family: 'Press Start 2P', arial;
+  font-family: $font-family-title;
   margin-bottom: 20px;
 }
 
@@ -164,7 +175,7 @@ p.intro {
 /*	TYPOGRAPHY------------------------------*/
 h1, h2, h3, h4, h6,
 .h1, .h2, .h3, .h4, .h6 {
-  font-family: 'Press Start 2P', arial;
+  font-family: $font-family-title;
   margin: 0;
 }
 
@@ -334,10 +345,10 @@ div.preloader {
 
 .grad-wug {
   background: #D3959B; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #D3959B, #8CA6DB);
-  background: -o-linear-gradient(bottom right, #D3959B, #8CA6DB);
-  background: -moz-linear-gradient(bottom right, #D3959B, #8CA6DB);
-  background: linear-gradient(to bottom right, #D3959B, #8CA6DB);
+  background: -webkit-linear-gradient(left top, $wug-grad-background);
+  background: -o-linear-gradient(bottom right, $wug-grad-background);
+  background: -moz-linear-gradient(bottom right, $wug-grad-background);
+  background: linear-gradient(to bottom right, $wug-grad-background);
 }
 
 .nim-menu.navbar-default .navbar-nav > li > a {
@@ -368,7 +379,7 @@ div.preloader {
 }
 
 .navbar-default .navbar-toggle:hover>.icon-bar {
-  background-color: #FFF;
+  background-color: $white;
 }
 
 
@@ -399,7 +410,7 @@ div.preloader {
 }
 
 .wug-text-grad {
-  background: -webkit-linear-gradient(#D3959B, #a2129e);
+  background: -webkit-linear-gradient($wug-grad);
   text-shadow: none;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -435,7 +446,7 @@ p.lead {
 }
 
 .main-heading-title {
-  font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+  font-family: $font-family-title;
   color: #fff;
   text-transform: uppercase;
   font-size: 40px;
@@ -444,7 +455,7 @@ p.lead {
 }
 
 .main-heading-title span {
-  font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+  font-family: $font-family-title;
   margin-left: 6px;
   word-spacing: -15px;
 }
@@ -460,7 +471,7 @@ p.lead {
   -webkit-animation: blink .6s infinite;
   -moz-animation: blink .6s infinite;
   -ms-animation: blink .6s infinite;
-  -o-animation: blink .6s infinite;
+  // -o-animation: blink .6s infinite;
   animation: blink .6s infinite;
 }
 
@@ -474,7 +485,7 @@ p.lead {
   overflow: hidden;
   clear: both;
   margin-bottom: 30px;
-  color: #a2129e;//$wug_main_color;
+  color: $wug-main-color;
 }
 
 .about-box i {
@@ -596,7 +607,7 @@ p.lead {
 }
 
 .list-inline a {
-  color: #a2129e; //$wug_main_color;
+  color: $wug-main-color;
 }
 
 .img-circle {
@@ -634,9 +645,9 @@ p.lead {
 }
 
 .subheading h4 {
-  color: #ffffff;
+  color: $white;
   font-style: italic;
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: $font-family-title;
 }
 
 .intermediate-container .heading h2 {
@@ -721,10 +732,10 @@ p.lead {
   width: 70px;
   height:70px;
   background: #D3959B; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #D3959B, #8CA6DB);
-  background: -o-linear-gradient(bottom right, #D3959B, #8CA6DB);
-  background: -moz-linear-gradient(bottom right, #D3959B, #8CA6DB);
-  background: linear-gradient(to bottom right, #D3959B, #8CA6DB);
+  background: -webkit-linear-gradient(left top, $wug-grad-background);
+  background: -o-linear-gradient(bottom right, $wug-grad-background);
+  background: -moz-linear-gradient(bottom right, $wug-grad-background);
+  background: linear-gradient(to bottom right, $wug-grad-background);
   border-radius:50%;
   color:#fff;
   text-align: center;
