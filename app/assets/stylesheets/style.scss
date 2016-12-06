@@ -510,7 +510,7 @@ p.lead {
 .item-img-wrap img {
   -webkit-transition:all 200ms linear;
   -moz-transition:all 200ms linear;
-  -o-transition:all 200ms linear;
+  // -o-transition:all 200ms linear;
   -ms-transition:all 200ms linear;
   transition:all 200ms linear;
 }
@@ -529,7 +529,7 @@ p.lead {
   position: absolute;
   top: 0;
   left: 0;
-  background:#222 url("../images/plus.png") center center no-repeat;
+  background:#222 url("../public/images/plus.png") center center no-repeat;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
@@ -545,7 +545,7 @@ p.lead {
 .item-img-wrap:hover img {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
-  -o-transform: scale(1.1);
+  // -o-transform: scale(1.1);
   transform: scale(1.1);
 }
 
@@ -623,7 +623,7 @@ p.lead {
 
 /*----------------INSPIRATION---------------------*/
 .inspiration {
- background:url("../images/img-1.jpg");
+ background:url("../public/images/img-1.jpg");
  background-position: center center;
  background-attachment: fixed;
  background-size:cover;
@@ -651,7 +651,7 @@ p.lead {
 
 /*	TESTIMONIAL------------------------------*/
 .client-testimonial {
- background:url("../images/background01.jpg");
+ background:url("../public/images/background01.jpg");
  background-position: center center;
  background-attachment: fixed;
  background-size:cover;

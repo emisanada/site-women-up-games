@@ -1,12 +1,3 @@
-/*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-[ COMMON SCRIPTS ]
-AUTHOR :VIJAYAN PP
-PROJECT :NIM
-VERSION : 1.1
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-*/
-
 (function($) {
   "use strict";
 
@@ -38,14 +29,14 @@ VERSION : 1.1
       });
     },
 
-    owlTestimonial:function() {
-      $("#testimonial").owlCarousel({
-        navigation : false, // Show next and prev buttons
-        slideSpeed : 300,
-        paginationSpeed : 400,
-        singleItem:true
-      });
-    },
+    // owlTestimonial:function() {
+    //   $("#testimonial").owlCarousel({
+    //     navigation : false, // Show next and prev buttons
+    //     slideSpeed : 300,
+    //     paginationSpeed : 400,
+    //     singleItem:true
+    //   });
+    // },
     stats:function() {
       $('.our-stats-box').each(function () {
       $('.our-stat-info').fappear(function (direction) {
@@ -146,20 +137,18 @@ VERSION : 1.1
 
 })(jQuery);
 
-
-
 /*+++++++++++++++++++++++++COMMON FUNCTIONS++++++++++++++++++++++++++++*/
 
 /*KENBERG SLIDER*/
-
- var fullscreenslider=function() {
-  $("section.main-heading").vegas({
-  delay: 3000,
-    slides: [
-      { src: "images/bak3.jpg" },
-      { src: "images/bak2.jpg" },
-      { src: "images/bak3.jpg" },
-      { src: "images/bak4.jpg" }
-    ],animation: 'kenburns'
-  });
-}
+// 
+//  var fullscreenslider=function() {
+//   $("section.main-heading").vegas({
+//   delay: 3000,
+//     slides: [
+//       { src: "public/images/bak3.jpg" },
+//       { src: "public/images/bak2.jpg" },
+//       { src: "public/images/bak3.jpg" },
+//       { src: "public/images/bak4.jpg" }
+//     ],animation: 'kenburns'
+//   });
+// }
