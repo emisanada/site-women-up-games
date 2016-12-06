@@ -11,6 +11,7 @@
  * file per style scope.
  *
  *= require bootstrap/bootstrap
+ *= require vegas/vegas
  *= require font-awesome-4.3.0/font-awesome.min
 
  *= require_tree .

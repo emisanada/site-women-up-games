@@ -29,14 +29,14 @@
       });
     },
 
-    // owlTestimonial:function() {
-    //   $("#testimonial").owlCarousel({
-    //     navigation : false, // Show next and prev buttons
-    //     slideSpeed : 300,
-    //     paginationSpeed : 400,
-    //     singleItem:true
-    //   });
-    // },
+    owlTestimonial:function() {
+      $("#testimonial").owlCarousel({
+        navigation : false, // Show next and prev buttons
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem:true
+      });
+    },
     stats:function() {
       $('.our-stats-box').each(function () {
       $('.our-stat-info').fappear(function (direction) {
@@ -140,7 +140,7 @@
 /*+++++++++++++++++++++++++COMMON FUNCTIONS++++++++++++++++++++++++++++*/
 
 /*KENBERG SLIDER*/
-// 
+//
 //  var fullscreenslider=function() {
 //   $("section.main-heading").vegas({
 //   delay: 3000,
