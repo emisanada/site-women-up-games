@@ -1,0 +1,67 @@
+@import "variables";
+
+.nim-menu {
+  padding-top: 5px;
+  transition: all 0.8s;
+  // background: $black;
+  border-bottom: none;
+  transition:all 0.4s ease-in;
+  -webkit-transition:all 0.4s ease-in;
+  -moz-transition:all 0.4s ease-in;
+  -ms-transition:all 0.4s ease-in;
+}
+
+.img-nav-bar {
+  margin-top: 5px;
+  height: 100px;
+  width: auto;
+  z-index: 100;
+}
+
+.navbar {
+  height: 65px !important;
+}
+
+.grad-wug {
+  background: #D3959B; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, $wug-grad-background);
+  background: -o-linear-gradient(bottom right, $wug-grad-background);
+  background: -moz-linear-gradient(bottom right, $wug-grad-background);
+  background: linear-gradient(to bottom right, $wug-grad-background);
+}
+
+.nim-menu.navbar-default .navbar-nav > li > a {
+  color: #fafafa;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  font-weight: 700;
+}
+
+.navbar-toggle {
+  border-radius:20%;
+  transition:all 1s;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  box-shadow:2px 2px 3px 3px rgba(0,0,0,0.4);
+  -webkit-box-shadow:2px 2px 3px 3px rgba(0,0,0,0.4);
+  -moz-box-shadow:2px 2px 3px 3px rgba(0,0,0,0.4);
+  -ms-box-shadow:2px 2px 3px 3px rgba(0,0,0,0.4);
+}
+
+.navbar-default .navbar-toggle:hover>.icon-bar {
+  background-color: none !important;
+}
+
+.navbar-default {
+  background-color: transparent;
+  color: $white;
+}
