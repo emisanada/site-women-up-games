@@ -167,55 +167,6 @@ h5, .h5 {
   font-family: $font-family-alternative;
 }
 
-/*	BUTTON------------------------------*/
-.btn {
-  font-size: 15px;
-  font-family: $font-family-btn;
-  text-transform: uppercase;
-  border-radius: 0;
-}
-
-.btn:focus,.btn:active {
-  outline: none;
-  color: $white;
-}
-
-.btn-custom {
-  border-radius: 3px;
-  padding: 0.8em 1.8em;
-  color: $white;
-  font-weight: 700;
-  -webkit-transition: all .5s ease-out;
-  -moz-transition: all .5s ease-out;
-  transition: all .5s ease-out;
-  text-transform: uppercase;
-}
-
-.btn-custom:hover,.btn-custom:focus {
-  color: $white;
-}
-
-.btn-custom-outline {
-  border-radius: 3px;
-  padding: 0.8em 1.8em;
-  color: $white;
-  font-weight: 700;
-  -webkit-transition: all .5s ease-out;
-  transition: all .5s ease-out;
-  text-transform: uppercase;
-  background-color: transparent;
-  border-color: $white;
-}
-
-.btn-custom-outline:hover,.btn-custom-outline:focus {
-  color: $white;
-  background-color: rgba(255,255,255,.5);
-}
-
-.btn-bar a {
-  margin-right: 10px;
-}
-
 /*	PRELOADER------------------------------*/
 div.preloader {
   position: fixed;
@@ -576,11 +527,6 @@ div.preloader {
   padding: 1em;
 }
 
-#mc-form .btn-default {
-  height: 60px;
-  color: #D3959B;
-}
-
 #mc-notification {
   margin: 0.75em 0 0;
   font-weight: 400;
@@ -595,62 +541,18 @@ div.preloader {
 .error i,
 .valid i { padding-right: .5em; }
 
-/*----------------SITE FOOTER-----------------------*/
+// SITE FOOTER
 .site-footer {
-  background:#fafafa;
-  font-size:0.93em;
-}
-
-.site-footer >.container {
   padding:30px 0px;
-}
-
-.site-footer small {
-  display: inline-block;
-}
-
-.footer-links,.site-footer small {
-  margin: 0 0 .75em;
-}
-
-.site-footer small,.footer-links a {
-  color: #8A8A8A;
-  font-weight: 300;
-  font-size:0.93em;
-}
-
-.footer-links a:hover {
-  color: #fa5454;
-}
-
-.footer-links a:first-child {
-  padding-right: .4em;
-}
-
-/*----------------SOCIAL---------------------------*/
-.social li {
-  display: inline-block;
-  padding-right: .5em;
-  text-align: center;
-}
-
-.social li:last-child { padding-right: 0; }
-
-.social li a {
-  display: block;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  color: #fff;
-  border-radius: 50%;
-  position: relative;
-  transition: all .8s ease;
-  font-size: 1.3em;
-  background: #D6D6D6;
-}
-
-.social li a:hover {
-  background:#000;
+  background: $white;
+  font-size: 0.93em;
+  small {
+    display: inline-block;
+    margin: 0 0 .75em;
+    color: #8A8A8A;
+    font-weight: 300;
+    font-size:0.93em;
+  }
 }
 
 /*----------------ANIMATIONS--------------------------*/

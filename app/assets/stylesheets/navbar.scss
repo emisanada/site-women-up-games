@@ -23,7 +23,7 @@
 }
 
 .grad-wug {
-  background: #D3959B; /* For browsers that do not support gradients */
+  background: $wug-second-color; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, $wug-grad-background);
   background: -o-linear-gradient(bottom right, $wug-grad-background);
   background: -moz-linear-gradient(bottom right, $wug-grad-background);

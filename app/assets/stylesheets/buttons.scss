@@ -1,0 +1,60 @@
+@import "variables";
+
+.btn {
+  font-size: 15px;
+  font-family: $font-family-btn;
+  text-transform: uppercase;
+  &:focus, &:active {
+    outline: none;
+    color: $white;
+  }
+}
+
+.btn-custom {
+  @extend .btn;
+  border-radius: 3px;
+  border: 1px solid $wug-main-color;
+  padding: 0.8em 1.8em;
+  color: $white;
+  font-weight: 700;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+  text-transform: uppercase;
+  &:hover, &:focus {
+    color: $white;
+    background-color: $transparent-wug-main;
+  }
+}
+
+.btn-default {
+  @extend .btn;
+  height: 60px;
+  color: $wug-second-color;
+  padding: 10px;
+  border: 0 none $white;
+  &:hover, &:focus {
+    color: $wug-main-color;
+  }
+}
+
+.btn-custom-outline {
+  @extend .btn;
+  border-radius: 3px;
+  border: 1px solid $white;
+  padding: 0.8em 1.8em;
+  color: $white;
+  font-weight: 700;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+  text-transform: uppercase;
+  background-color: transparent;
+  &:hover, &:focus {
+    color: $white;
+    background-color: $transparent-white;
+  }
+}
+
+.btn-bar a {
+  margin-right: 10px;
+}
