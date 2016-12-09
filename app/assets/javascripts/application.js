@@ -20,6 +20,8 @@
 
 //= require bootstrap/bootstrap
 //= require typed/typed
+//= require plugins/plugins
+//= require SmoothScroll/SmoothScroll
 //= require vegas/vegas
 //= require fappear/fappear
 //= require owl-carousel/owl.carousel
