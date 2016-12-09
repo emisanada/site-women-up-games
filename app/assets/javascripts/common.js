@@ -1,10 +1,6 @@
 (function($) {
   "use strict";
 
-  $(window).load(function(){
-    App.loader();
-  });
-
   var App = {
     init:function() {
       App.typing();
@@ -21,9 +17,9 @@
     },
 
     typing: function() {
-      console.log('typing');
       $(".typing-words").each(function(){
         var word = $(this);
+        console.log(word);
         word.typed({
           strings: word.attr('data-elements').split(','),
           typeSpeed: 100,
@@ -134,7 +130,11 @@
    },
 
   };
-  App.init();
+
+  $(document).ready(function(){
+    App.init();
+    App.loader();
+  });
 
 })(jQuery);
 
