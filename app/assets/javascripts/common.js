@@ -131,7 +131,6 @@
   };
 
   $(document).ready(function(){
-    console.log("document.ready")
     App.init();
     App.loader();
   });
