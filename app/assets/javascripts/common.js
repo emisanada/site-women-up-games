@@ -19,11 +19,10 @@
     typing: function() {
       $(".typing-words").each(function(){
         var word = $(this);
-        console.log(word);
         word.typed({
           strings: word.attr('data-elements').split(','),
           typeSpeed: 100,
-          backDelay: 3000
+          backDelay: 4000
         });
       });
     },
@@ -132,24 +131,9 @@
   };
 
   $(document).ready(function(){
+    console.log("document.ready")
     App.init();
     App.loader();
   });
 
 })(jQuery);
-
-/*+++++++++++++++++++++++++COMMON FUNCTIONS++++++++++++++++++++++++++++*/
-
-/*KENBERG SLIDER*/
-
-// var fullscreenslider = function() {
-//   $("section.main-heading").vegas({
-//   delay: 3000,
-//     slides: [
-//       { src: "public/images/bak3.jpg" },
-//       { src: "public/images/bak2.jpg" },
-//       { src: "public/images/bak3.jpg" },
-//       { src: "public/images/bak4.jpg" }
-//     ], animation: 'kenburns'
-//   });
-// }

@@ -63,18 +63,13 @@ p.lead {
 }
 
 .main-heading-title {
+  display: inline-block;
   font-family: $font-family-title;
   color: $white;
   text-transform: uppercase;
   font-size: 40px;
   word-spacing: -15px;
   text-shadow: rgba(0,0,0,0.498039) 2px 2px 2px;
-}
-
-.main-heading-title span {
-  font-family: $font-family-title;
-  margin-left: 6px;
-  word-spacing: -15px;
 }
 
 .main-heading-text {
