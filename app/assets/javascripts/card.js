@@ -1,6 +1,9 @@
 (function($){
 
-  var $container = $('.card');
+  $(document).ready(function(){
+    var $container = $('.card-container');
+    $container.on('click', '.card-content', openCard);
+  });
 
   function openCard(event) {
     var $element = $(event.currentTarget);
@@ -14,7 +17,5 @@
       }
     }
   };
-
-  $container.on('click', '.card-content', openCard);
 
 })(jQuery);

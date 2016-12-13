@@ -12,6 +12,9 @@
  *
  *= require font-awesome
  *= require bootstrap/bootstrap
+ *= require magnific-popup/magnific-popup
+ *= require owl-carousel/owl.carousel
+ *= require owl-carousel/owl.theme
  *= require vegas/vegas
 
  *= require_self
